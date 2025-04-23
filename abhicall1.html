@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhinandan Sharma | portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f4f6f8;
+      color: #2e2e2e;
+      line-height: 1.6;
+    }
+    header {
+      background: #0d1b2a;
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .profile-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid white;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      font-size: 3.5rem;
+      animation: fadeIn 1s ease-in-out;
+    }
+    header p {
+      font-size: 1.5rem;
+      margin-top: 0.5rem;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    nav {
+      background: #1b263b;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: #e0e1dd;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffb703;
+    }
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 3rem 1rem;
+    }
+    section h2 {
+      font-size: 2.5rem;
+      color: #1b263b;
+      margin-bottom: 1rem;
+    }
+    .skills, .projects, .hobbies {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #ffffff;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+    }
+    .contact-info p {
+      margin-bottom: 0.7rem;
+    }
+    .highlight {
+      color: #fb8500;
+      font-weight: 700;
+    }
+    .button {
+      display: inline-block;
+      background-color: #fb8500;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 1.5rem;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #e07a00;
+    }
+    footer {
+      text-align: center;
+      background: #0d1b2a;
+      color: white;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="abhi.jpg" alt="Profile Photo" class="profile-photo">
+    <h1>Abhinandan Sharma</h1>
+    <p>First Year Student | Software Branch</p>
+    <a href="#contact" class="button">Get in Touch</a>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <img src="abhi.jpg" alt="Profile Photo" class="profile-photo" size="100px">
+    <h2>About Me</h2>
+    <p>Hi! I'm <span class="highlight">Abhinandan Sharma</span>, a first-year student specializing in <span class="highlight">Software Engineering</span>.Software Engineering drives innovation by designing and optimizing applications using data, algorithms, and intelligent systems. Software engineers build scalable solutions, contribute to open-source, and explore AI, automation, and neural networks to shape the future of technology.</p>    
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">Python (BASICS)</div>
+      <div class="card">Pandas & NumPy</div>
+      <div class="card">Data Modelling</div>
+      <div class="card">C Programming</div>
+      <div class="card">HTML, CSS & JavaScript</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>CERTIFICATE</h2>
+    <div class="projects">
+      <div class="card">
+        
+        <a href="ActivitiesConcerns 1. Low light at night leading to safety concerns 2. Inefficient use of energy resources 3. Rising electricity costs for public lighting 4. Need for renewable energy adoption_compressed.pdf" alt="DT project" style="text-decoration: none; color: inherit;">Design Thinking PROJECT</a>
+      </div>
+      <div class="card">
+        <a href="Abhinandan sharma.pdf certificate for linux course completion.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+          Linux
+        </a>
+      </div>
+      <div class="card">
+        <a href="Certificate for Abhinandan sharma for _Lymphatic Filariasis (Eleph..._.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+          National health
+        </a>
+        </div>
+        <div class="card">
+          <a href="36f4839c-873b-457c-a6e3-54b2792c6b0f.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+            The Knownledge Netwoking
+          </a>
+          </div>
+          <div class="card">
+            <a href="7788942_Introduction_to_Kali_Linux_Basics_7575082-1.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+              Linux bacis
+            </a>
+            </div>
+    </div>
+  </section>
+
+  <section id="hobbies">
+    <h2>Hobbies</h2>
+    <div class="hobbies">
+      <div class="card">
+        <div class="card">
+        📚 Reading Books
+        </div>
+      </div>
+      <div class="card">
+        <div class="card">
+        🎮 Playing Video Games
+        </div>
+      </div>
+      <div class="card">
+        <div class="card">🎨 Painting and Drawing</div>
+      </div>
+      <div class="card">
+        <div class="card">
+          <a href="WhatsApp Image 2025-04-13 at 23.48.53_e462d9d1.jpg" target="_blank" style="text-decoration: none; color: inherit;">
+            🌍 Traveling and Exploring
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card">
+        <a href="" target="_blank" style="text-decoration: none; color: inherit;">
+          🎶 Listening to Music
+        </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card">🧩 Solving Puzzles</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:ragav.sharma@example.com">abhinandan.sharma@example.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/raghavsharma" target="_blank">linkedin.com/in/Abhisharma</a></p>
+      <p>GitHub: <a href="https://github.com/raghavsharma" target="_blank">github.com/abhisharma</a></p>
+      <p><a href="#" class="button">Download Resume</a></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Abhinandan Sharma | Software Engineering Student
+  </footer>
+</body>
+</html>
